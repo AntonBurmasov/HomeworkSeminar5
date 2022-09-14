@@ -33,17 +33,11 @@ return count;
 }
 
 
-
-
-
-
-
-
 int[] array = GetArray(10, 100, 999);
 
 Console.WriteLine(string.Join(", ", array));
 
-int ShowCountEvenNumbered = EvenNumbersInArray(array);
+int ShowCountofEvenNumbered = EvenNumbersInArray(array);
 
-Console.WriteLine($"Количество четных элементов в массиве = {ShowCountEvenNumbered}.");
+Console.WriteLine($"Количество четных элементов в массиве = {ShowCountofEvenNumbered}.");
 
